@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.6",
+    "@nuxtjs/tailwindcss": "^6.10.3",
+    "nuxt": "^3.9.0",
+    "scrollbar": "^0.1.12",
+    "tailwind": "^4.0.0",
+    "tailwind-scrollbar": "^3.0.5",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@morev/vue-transitions": "^2.3.6",
+    "@vueuse/nuxt": "^10.7.1",
+    "chart.js": "^4.4.1",
+    "nuxt-headlessui": "^1.1.5",
+    "nuxt-icon": "^0.6.8",
+    "vue-chartjs": "^5.3.0"
+  }
+}
