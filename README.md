@@ -1,6 +1,19 @@
-# Nuxt 3 Minimal Starter
+# Analytics Dashboard
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Created with Nuxt 3 and Tailwind CSS
+
+## Modules used
+
+1. @nuxtjs/tailwindcss
+2. nuxt-icon
+3. @vueuse/nuxt
+4. nuxt-headlessui
+5. @morev/vue-transitions/nuxt
+6. @davestewart/nuxt-scrollbar
+
+Chart JS has no nuxt module but it was used as well.
+
+Light and dark mode is in place. Thanks to VueUse
 
 ## Setup
 
@@ -55,21 +68,3 @@ yarn build
 # bun
 bun run build
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
